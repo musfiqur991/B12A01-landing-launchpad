@@ -134,3 +134,40 @@ main {
     font-size: 20px;
     font-weight: 400;
 }
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 115px;
+    margin-bottom: 115px;
+}
+
+.contact h1 {
+    width: 50%;
+    font-weight: 700;
+    font-size: 97px;
+}
+
+.contact form {
+    width: 50%;
+}
+
+.contact form label {
+    font-size: 18;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 20px 32px 20px 32px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
