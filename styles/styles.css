@@ -36,9 +36,14 @@
     color: rgb(37, 36, 50);
 }
 
+body {
+    background-color: rgb(245, 248, 255);
+}
+
 /* header and nav styles */
 header {
     background-image: url(../Assets/Hero-bg.png);
+    background-color: rgba(78, 71, 255, 0.1);
 }
 
 nav {
@@ -70,6 +75,7 @@ nav h3 {
 main {
     max-width: 1140px;
     margin: 0 auto;
+
 }
 
 .action-section {
@@ -170,4 +176,41 @@ textarea {
     padding: 20px 32px 20px 32px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 110px;
+    padding-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-container {
+    width: 535px;
+}
+
+.footer-container p {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container p a {
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-description {
+    color: rgb(137, 135, 161);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-logo {
+    font-size: 100px;
+    font-weight: 900;
+    color: rgb(78, 71, 255);
+    margin: 0;
 }
